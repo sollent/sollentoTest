@@ -60,11 +60,7 @@ class __TwigTemplate_00ce08fae3e70f5211dc50a731e2aedaec594fe67c79bc32b56157fdebb
         echo "\t";
         $this->displayParentBlock("stylesheet", $context, $blocks);
         echo "
-\t<link rel=\"stylesheet\" href=\"";
-        // line 5
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("build/news.css"), "html", null, true);
-        echo "\">
-";
+\t";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -372,7 +368,7 @@ class __TwigTemplate_00ce08fae3e70f5211dc50a731e2aedaec594fe67c79bc32b56157fdebb
 
     public function getDebugInfo()
     {
-        return array (  351 => 132,  342 => 131,  322 => 129,  299 => 115,  285 => 104,  271 => 93,  221 => 46,  192 => 19,  183 => 18,  163 => 16,  150 => 13,  141 => 12,  129 => 134,  127 => 131,  124 => 130,  122 => 129,  119 => 128,  117 => 18,  114 => 17,  112 => 16,  109 => 15,  107 => 12,  104 => 11,  95 => 10,  77 => 8,  65 => 5,  60 => 4,  51 => 3,  15 => 1,);
+        return array (  347 => 132,  338 => 131,  318 => 129,  295 => 115,  281 => 104,  267 => 93,  217 => 46,  188 => 19,  179 => 18,  159 => 16,  146 => 13,  137 => 12,  125 => 134,  123 => 131,  120 => 130,  118 => 129,  115 => 128,  113 => 18,  110 => 17,  108 => 16,  105 => 15,  103 => 12,  100 => 11,  91 => 10,  73 => 8,  60 => 4,  51 => 3,  15 => 1,);
     }
 
     public function getSourceContext()
@@ -381,7 +377,7 @@ class __TwigTemplate_00ce08fae3e70f5211dc50a731e2aedaec594fe67c79bc32b56157fdebb
 
 {% block stylesheet %}
 \t{{ parent() }}
-\t<link rel=\"stylesheet\" href=\"{{ asset('build/news.css') }}\">
+\t{#<link rel=\"stylesheet\" href=\"{{ asset('build/news.css') }}\">#}
 {% endblock %}
 
 {% block title %} Новости {% endblock %}
@@ -512,6 +508,6 @@ class __TwigTemplate_00ce08fae3e70f5211dc50a731e2aedaec594fe67c79bc32b56157fdebb
 \t{% endblock %}
 \t
 \t
-{% endblock %}", "default/news-page.html.twig", "/home/sollent/Desktop/sollento/sollentomarket/app/Resources/views/default/news-page.html.twig");
+{% endblock %}", "default/news-page.html.twig", "/home/sollent/Desktop/sollento/testSollento/app/Resources/views/default/news-page.html.twig");
     }
 }
